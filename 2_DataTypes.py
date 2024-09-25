@@ -38,15 +38,3 @@ print(mySet)
 person = {"name": "Alice", "age": 30}
 name = person["name"]
 print(name)
-
-
-
-
-
-
-
-
-
-
-
-
