@@ -28,4 +28,15 @@ class Student:
 
 obj:Student  = Student()
 obj.findMyAge(2024,2005)
-obj.monthlyPocketMoney(200)
+obj.monthlyPocketMoney(int(input("Weekly Money: ")))
+
+class Car:
+    model = 2024
+    gear = 7
+    first_gear = 50
+    def topSpeed (this, gear):
+        speed = 50 * gear 
+        print("the top speed is:",speed)
+
+car:Car = Car()
+car.topSpeed(int(input("Enter No. of Gear (1 - 7): ")))
